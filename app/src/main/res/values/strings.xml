@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Imobiliaria</string>
+
+    <!-- LOGIN -->
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_senha">Senha</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="msg_senha_invalida">Usuário ou Senha Inválido!</string>
+
+    <!-- INSERIR & EDITAR -->
+    <string name="txt_nome">Nome</string>
+    <string name="txt_descricao">Descrição</string>
+    <string name="txt_tipo">Tipo</string>
+    <string name="txt_endereco">Endereço</string>
+    <string name="txt_numero">Numero</string>
+    <string name="txt_bairro">Bairro</string>
+    <string name="txt_cidade">Cidade</string>
+    <string name="txt_valor">Valor</string>
+
+    <!-- INSERIR -->
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="msg_camposobrigatorios">Campos Obrigatórios!</string>
+
+    <!-- EDITAR -->
+    <string name="btn_excluir">Excluir</string>
+    <string name="msg_alterado">Registro Alterado com Sucesso.</string>
+    <string name="msg_excluido">Registro Excluído com Sucesso.</string>
+
+    <!-- CONSULTAR -->
+    <string name="btn_novocontato">Cad Imovél</string>
+    <string name="btn_sair">Sair</string>
+
+</resources>
+
+
+

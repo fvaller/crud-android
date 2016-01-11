@@ -1,0 +1,154 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/txtViewNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_nome"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:id="@+id/txtViewDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_descricao"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtDescricao"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_tipo"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtTipo"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_endereco"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_numero"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtNumero"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewBairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_bairro"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtBairro"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewCidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_cidade"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtCidade"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewValor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_valor"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtValor"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btnExcluir"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btn_excluir"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#A52A2A"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSalvar2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btn_salvar"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#00868B"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
